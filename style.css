@@ -26,6 +26,7 @@
     height: 25px;
     margin-bottom: 8px;
     background-color: rgb(228, 219, 219);
+    border: solid 1px rgb(17, 150, 12);
     
 }
 
@@ -41,7 +42,9 @@
 }
 
 .form .login_btn{
-    margin-left: 42%;
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .form .r_btn1{
@@ -65,5 +68,32 @@
     background-color: rgb(146, 227, 230);
     font-size: 16px;
     border-radius: 5px;
+    
+}
+
+
+.l_img{
+    height: 80px;
+    margin-left: 100px;
+}
+
+.form input:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(73, 100, 76, 0.792);
+}
+
+.form .h1{
+    position: relative;
+    display: inline-block;
+    /* margin-left: 30px; */
+    margin-bottom: 10px;
+    left: 30px;
+    bottom: 10px;
+}
+.r_img{
+    position: relative;
+    height: 80px;
+    left: 30px;
+    top: 10px;
     
 }
